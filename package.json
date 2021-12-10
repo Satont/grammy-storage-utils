@@ -1,0 +1,28 @@
+{
+  "name": "@satont/grammy-storage-utils",
+  "main": "dist/mod.js",
+  "types": "dist/mod.d.ts",
+  "scripts": {
+    "test": "ava",
+    "build": "deno2node tsconfig.json"
+  },
+  "keywords": [],
+  "author": "Satont <satontworldwide@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "grammy": "^1.5.2"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "deno2node": "^1.0.0",
+    "ts-node": "^10.4.0"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
