@@ -2,6 +2,7 @@
   "name": "@satont/grammy-storage-utils",
   "main": "dist/mod.js",
   "types": "dist/mod.d.ts",
+  "version": "1.0.0",
   "scripts": {
     "test": "ava",
     "build": "deno2node tsconfig.json"
